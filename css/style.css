@@ -11,21 +11,21 @@ h3, p{
     background-color: burlywood;
 } */
 
-input[type="text"],
-select {
+.formElement
+ {
   width: 100%;
   padding: 10px;
   border-radius: 10px;
   margin: 8px 0px;
   box-sizing: border-box;
 }
-input[type="text"]:focus {
+.formElement:focus {
   background-color: lightblue;
 }
-input[type="text"]:hover {
+.formElement:hover {
   background-color: lightcyan;
 }
-input[type="submit"] {
+.formSubmit {
   width: 100%;
   padding: 13px;
   background-color: blue;
