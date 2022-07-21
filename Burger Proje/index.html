@@ -9,7 +9,7 @@
       .imgMainDiv {
         display: flex;
         justify-content: center;
-        margin: 30px 0px;
+        margin: 30px 30px;
       }
       .imgDiv {
         border: 1px dashed black;
@@ -78,22 +78,28 @@
 
       @media only screen and (max-width: 600px) {
         .imgMainDiv {
-          flex-direction: column;
+          margin: 0px;
         }
         .imgDiv {
-          width: 100%;
+          border: 1px dashed black;
+          width: 100% !important;
           margin-bottom: 30px;
+          margin-right: 20px;
         }
       }
 
       @media only screen and (max-width: 900px) {
         .imgMainDiv {
           flex-wrap: wrap;
+          margin: 0px;
         }
+
         .imgDiv {
           width: 45%;
+          border: 1px dashed black;
           margin: 10px;
         }
+
         .footer {
           padding: 0px 50px;
         }
